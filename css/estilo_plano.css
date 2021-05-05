@@ -1,0 +1,34 @@
+.msg {
+    background-color: #3b3939;
+
+}
+
+#cor_fundo {
+    background-color: rgb(98, 226, 183);
+}
+
+body {
+    background-color: rgb(231, 241, 250);
+}
+
+.msg-2 {
+    background-color: #3b3939;
+    height: 176px;
+}
+
+.descricao {
+    font-size: 23px;
+}
+
+footer {
+    margin-top: 15px;
+    width: 100%;
+    height: 170px;
+    background-color: #212530;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
