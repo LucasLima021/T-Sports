@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(231, 241, 250);
+}
+
 .msg {
     background-color: #3b3939;
 
@@ -5,10 +9,6 @@
 
 #cor_fundo {
     background-color: rgb(98, 226, 183);
-}
-
-body {
-    background-color: rgb(231, 241, 250);
 }
 
 .msg-2 {
