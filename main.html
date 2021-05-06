@@ -22,14 +22,31 @@
 
         <!--Criando o menu-->
         <header class="mb-3">
-            <nav>
-                <ul>
-                    <li class="itens fw-bold"><a href="#">Vôlei</a></li>
-                    <li class="itens fw-bold"><a href="#">NBA</a></li>
-                    <li class="itens fw-bold"><a href="#">UFC</a></li>
-                    <li class="itens fw-bold"><a href="#">Olímpiadas</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-2">
+                <a class="navbar-brand" href="#">T - Sports</a>
+
+                <!--Menu Sanduiche (Hamburger)
+                data-bs-toogle: indica que o botão pressionado apresentará o menu.
+                data-bs-target define o que vamos mostrar através de um Id
+                -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse"  
+                data-bs-target="#menu-target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Colapsando o menu-->
+                <div class="collapse navbar-collapse" id="menu-target">
+                    <!--Alinhamento do Menu para direita 
+                    margem esquerda automática-->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> <a class="nav-link" href="#">Vôlei</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">UFC</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">NBA</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Olimpíadas</a></li>
+
+                    </ul>
+                </div>
+            </nav> 
         </header>
 
         <main>
@@ -38,12 +55,10 @@
                 <img src="img/banner.jpg" alt="banner">
             </section>
 
-            <div id="texto_banner">T - Sports</div>
-
             <!--Seção principal-->
             <section>
 
-                <div class="row">
+                <div class="row mt-5">
                     <!--Criando a primeira coluna da linha-->
                     <div class="col-6 conteudo borda">
                         <!--Exibindo a foto da notícia-->

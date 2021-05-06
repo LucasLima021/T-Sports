@@ -18,39 +18,9 @@ img{
     height: 300px;
 } 
 
-/*Primeiros passos com o menu*/
-header{
-    background-color: royalblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Estilizando o menu*/
-nav ul{
-    list-style: none;
-}
-
-nav ul li{
-    display: inline-block;
-}
-
-nav ul li a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 10px 15px;
-    font-size: 1.3em;
-    text-transform: uppercase;
-}
-
 /*Arrumando os links*/
 a{
     text-decoration: none;
-}
-
-a:hover{
-    color: rgb(221, 27, 27);
 }
 
 /*Estilizando o banner*/
@@ -67,17 +37,6 @@ section #banner{
 /*Centralizando conteúdo*/
 .conteudo{
     text-align: justify;
-}
-
-/*Colocando o texto sobre o banner*/
-#texto_banner{
-    color: rgba(230, 109, 53, 0.932);
-    text-align: center;
-    font-size: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    top: -480px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
 }
 
 /*Estilizando meu rodapé*/
